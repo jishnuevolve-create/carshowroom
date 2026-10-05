@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /backend/
+
+Sitemap: https://www.royaldrive.example/sitemap.xml

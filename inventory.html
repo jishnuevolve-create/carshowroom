@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Certified Pre-Owned Car Inventory | Royal Drive Bengaluru</title>
+  <meta name="description" content="Browse certified pre-owned BMW, Mercedes-Benz, Audi, Porsche, Toyota and more. Filter by brand, budget, fuel and body type. 150-point inspected with 7-day return assurance.">
+  <link rel="canonical" href="https://www.royaldrive.example/inventory.html">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Royal Drive">
+  <meta property="og:title" content="Certified Pre-Owned Car Inventory | Royal Drive Bengaluru">
+  <meta property="og:description" content="Browse certified pre-owned BMW, Mercedes-Benz, Audi, Porsche, Toyota and more. Filter by brand, budget, fuel and body type. 150-point inspected with 7-day return assurance.">
+  <meta property="og:url" content="https://www.royaldrive.example/inventory.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1570733577524-3a047079e80d?auto=format&fit=crop&w=1200&h=630&q=75">
+  <meta property="og:locale" content="en_IN">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============================== NAV ============================== -->
+  <header class="nav" data-section="nav">
+    <div class="container nav__inner">
+      <a class="logo" href="index.html" aria-label="Royal Drive home">
+        <span class="logo__mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3 18 4.5 7l5 4.5L12 5l2.5 6.5 5-4.5L21 18z"/></svg></span>
+        <span>Royal<em>Drive</em></span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="inventory.html" aria-current="page">Inventory</a>
+        <a href="index.html#sell">Sell Your Car</a>
+        <a href="index.html#finance">Finance</a>
+        <a href="index.html#why">About</a>
+        <a href="index.html#enquiry">Contact</a>
+      </nav>
+      <div class="nav__actions">
+        <a class="nav__phone" data-tel href="tel:+919876543210"><svg class="icon"><use href="#i-phone"/></svg><span>+91 98765 43210</span></a>
+        <a class="icon-btn" data-wa href="#" aria-label="Chat on WhatsApp" style="color:var(--wa)"><svg class="icon icon--fill"><use href="#i-whatsapp"/></svg></a>
+        <a class="icon-btn nav__wish" href="inventory.html?saved=1" aria-label="Saved cars"><svg class="icon"><use href="#i-heart"/></svg><span class="count" data-n="0"></span></a>
+        <a class="btn btn--primary btn--sm nav__cta" href="index.html?type=Test%20Drive#enquiry">Book a Test Drive</a>
+        <button class="icon-btn nav__toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="drawer"><svg class="icon"><use href="#i-menu"/></svg></button>
+      </div>
+    </div>
+  </header>
+  <div class="drawer" id="drawer" aria-hidden="true">
+    <div class="drawer__scrim"></div>
+    <div class="drawer__panel" role="dialog" aria-label="Menu">
+      <div class="drawer__head"><span class="logo"><span class="logo__mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3 18 4.5 7l5 4.5L12 5l2.5 6.5 5-4.5L21 18z"/></svg></span>Royal<em style="font-style:normal;color:var(--brand)">Drive</em></span><button class="icon-btn" type="button" data-drawer-close aria-label="Close menu"><svg class="icon"><use href="#i-x"/></svg></button></div>
+      <nav aria-label="Mobile">
+        <a href="index.html">Home</a><a href="inventory.html">Inventory</a><a href="index.html#sell">Sell Your Car</a><a href="index.html#finance">Finance</a><a href="index.html#why">About</a><a href="index.html#enquiry">Contact</a>
+      </nav>
+      <a class="btn btn--primary btn--lg" href="index.html?type=Test%20Drive#enquiry">Book a Test Drive</a>
+      <a class="btn btn--ghost btn--lg" data-tel href="tel:+919876543210"><svg class="icon"><use href="#i-phone"/></svg> Call showroom</a>
+    </div>
+  </div>
+
+
+  <main id="main">
+    <section class="page-head">
+      <div class="container">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><svg class="icon"><use href="#i-chevron-right"/></svg><span aria-current="page">Inventory</span></nav>
+        <h1>Certified Inventory</h1>
+        <p class="lead" id="inv-lead">Every car is 150-point inspected, document-verified and backed by 7-day return assurance.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:24px" data-section="inventory">
+      <div class="container">
+        <div class="toolbar">
+          <div class="search-input"><svg class="icon"><use href="#i-search"/></svg><label class="sr-only" for="inv-q">Search cars</label><input id="inv-q" type="search" placeholder="Search brand, model, colour…" autocomplete="off"></div>
+          <div class="chip-select"><label class="sr-only" for="inv-sort">Sort by</label>
+            <select id="inv-sort"><option value="newest">Sort: Newest first</option><option value="price-asc">Price: Low to high</option><option value="price-desc">Price: High to low</option><option value="km-asc">Km: Lowest first</option><option value="year-desc">Year: Newest</option></select><svg class="icon"><use href="#i-chevron-down"/></svg></div>
+        </div>
+
+        <div class="filters" id="inv-filters" role="group" aria-label="Filter cars">
+          <div class="chip-select"><label class="sr-only" for="i-brand">Brand</label><select id="i-brand" data-filter="brand"><option value="">All brands</option></select><svg class="icon"><use href="#i-chevron-down"/></svg></div>
+          <div class="chip-select"><label class="sr-only" for="i-model">Model</label><select id="i-model" data-filter="model"><option value="">All models</option></select><svg class="icon"><use href="#i-chevron-down"/></svg></div>
+          <div class="chip-select"><label class="sr-only" for="i-budget">Price</label><select id="i-budget" data-filter="budget"><option value="">Any price</option><option value="0-1500000">Under ₹15 Lakh</option><option value="1500000-3000000">₹15 – 30 Lakh</option><option value="3000000-5000000">₹30 – 50 Lakh</option><option value="5000000-10000000">₹50 Lakh – 1 Cr</option><option value="10000000-">Above ₹1 Cr</option></select><svg class="icon"><use href="#i-chevron-down"/></svg></div>
+          <div class="chip-select"><label class="sr-only" for="i-fuel">Fuel</label><select id="i-fuel" data-filter="fuel"><option value="">Any fuel</option><option>Petrol</option><option>Diesel</option><option>Hybrid</option><option>Electric</option></select><svg class="icon"><use href="#i-chevron-down"/></svg></div>
+          <div class="chip-select"><label class="sr-only" for="i-year">Year</label><select id="i-year" data-filter="year"><option value="">Any year</option><option value="2023">2023 &amp; newer</option><option value="2022">2022 &amp; newer</option><option value="2021">2021 &amp; newer</option><option value="2019">2019 &amp; newer</option></select><svg class="icon"><use href="#i-chevron-down"/></svg></div>
+          <div class="chip-select"><label class="sr-only" for="i-body">Body type</label><select id="i-body" data-filter="body"><option value="">Any body</option><option>SUV</option><option>Sedan</option><option>Hatchback</option><option>Coupe</option></select><svg class="icon"><use href="#i-chevron-down"/></svg></div>
+          <div class="chip-select"><label class="sr-only" for="i-trans">Transmission</label><select id="i-trans" data-filter="transmission"><option value="">Any transmission</option><option>Automatic</option><option>Manual</option></select><svg class="icon"><use href="#i-chevron-down"/></svg></div>
+          <span class="filters__sep" aria-hidden="true"></span>
+          <button class="chip" type="button" data-chip="cat" data-value="luxury" aria-pressed="false">Luxury</button>
+          <button class="chip" type="button" data-chip="cat" data-value="budget" aria-pressed="false">Budget</button>
+          <button class="chip" type="button" data-chip="saved" data-value="1" aria-pressed="false"><svg class="icon icon--sm"><use href="#i-heart"/></svg>Saved</button>
+          <button class="filters__reset" type="button" id="inv-reset" hidden>Clear all</button>
+        </div>
+
+        <p class="toolbar__count" id="inv-count" aria-live="polite" style="margin-bottom:20px"></p>
+        <div class="grid-cars" id="inv-grid"></div>
+      </div>
+    </section>
+
+    <section class="container" data-section="inventory_cta">
+      <div class="newsletter">
+        <div><span class="eyebrow">Can't find it?</span><h2>Tell us your dream car — we'll source it.</h2><p class="muted" style="margin-top:10px">Our buying team inspects 200+ cars a month. Share what you want and we'll alert you first.</p></div>
+        <div style="display:flex;gap:12px;flex-wrap:wrap"><a class="btn btn--primary btn--lg" href="index.html#enquiry">Request a car</a><a class="btn btn--ghost btn--lg" data-wa="Hi Royal Drive, I'm looking for a specific car. Can you help me find it?" data-track="inventory_cta"><svg class="icon icon--fill" style="color:var(--wa)"><use href="#i-whatsapp"/></svg> WhatsApp us</a></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================== FOOTER ============================== -->
+  <footer class="footer" data-section="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a class="logo" href="index.html"><span class="logo__mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3 18 4.5 7l5 4.5L12 5l2.5 6.5 5-4.5L21 18z"/></svg></span><span>Royal<em>Drive</em></span></a>
+          <p>Bengaluru's trusted showroom for certified pre-owned premium cars. Drive Premium. Pay Smart.</p>
+          <div class="socials">
+            <a href="https://instagram.com/" aria-label="Instagram" rel="noopener" target="_blank"><svg class="icon"><use href="#i-instagram"/></svg></a>
+            <a href="https://facebook.com/" aria-label="Facebook" rel="noopener" target="_blank"><svg class="icon"><use href="#i-facebook"/></svg></a>
+            <a href="https://youtube.com/" aria-label="YouTube" rel="noopener" target="_blank"><svg class="icon"><use href="#i-youtube"/></svg></a>
+            <a href="https://linkedin.com/" aria-label="LinkedIn" rel="noopener" target="_blank"><svg class="icon"><use href="#i-linkedin"/></svg></a>
+          </div>
+        </div>
+        <div><h4>Quick links</h4><ul><li><a href="inventory.html">Inventory</a></li><li><a href="index.html#sell">Sell Your Car</a></li><li><a href="index.html#finance">Finance &amp; EMI</a></li><li><a href="index.html#why">About Us</a></li><li><a href="index.html#enquiry">Contact</a></li></ul></div>
+        <div><h4>Categories</h4><ul><li><a href="inventory.html?body=SUV">SUVs</a></li><li><a href="inventory.html?body=Sedan">Sedans</a></li><li><a href="inventory.html?body=Hatchback">Hatchbacks</a></li><li><a href="inventory.html?cat=luxury">Luxury</a></li><li><a href="inventory.html?fuel=Electric">Electric</a></li><li><a href="inventory.html?cat=budget">Budget Cars</a></li></ul></div>
+        <div><h4>Contact</h4><ul><li><a data-tel href="tel:+919876543210">+91 98765 43210</a></li><li><a href="mailto:sales@royaldrive.example">sales@royaldrive.example</a></li><li>42, Outer Ring Road, Bellandur, Bengaluru 560103</li><li>Mon – Sat 9:30 – 8:00 · Sun 10:30 – 6:00</li></ul></div>
+      </div>
+      <div class="footer__bottom">
+        <span>© <span data-year>2026</span> Royal Drive Motors Pvt. Ltd. All rights reserved.</span>
+        <nav aria-label="Legal"><a href="#">Privacy Policy</a><a href="#">Terms of Use</a><a href="#">Refund &amp; Return Policy</a><a href="#">Cookie Policy</a></nav>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating actions (mobile) -->
+  <div class="fab-stack">
+    <a class="fab fab--call" data-tel href="tel:+919876543210" aria-label="Call Royal Drive" data-track="fab"><svg class="icon"><use href="#i-phone"/></svg></a>
+    <a class="fab fab--wa" data-wa href="#" aria-label="Chat on WhatsApp" data-track="fab"><svg class="icon icon--fill"><use href="#i-whatsapp"/></svg></a>
+  </div>
+  <div class="mobile-bar">
+    <a class="icon-btn" data-tel href="tel:+919876543210" aria-label="Call" data-track="mobile_bar"><svg class="icon"><use href="#i-phone"/></svg></a>
+    <a class="btn btn--primary" href="index.html#enquiry">Enquire Now</a>
+  </div>
+
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/core.js"></script>
+  <script src="assets/js/inventory.js" defer></script>
+</body>
+</html>

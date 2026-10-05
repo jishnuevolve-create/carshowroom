@@ -1,0 +1,14 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "royal-drive",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "scripts/serve.js",
+        "5173"
+      ],
+      "port": 5173
+    }
+  ]
+}
